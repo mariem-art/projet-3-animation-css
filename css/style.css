@@ -141,7 +141,7 @@ button.choix i{
     margin-right: 20px;
     height: 20px;
 }
-button.choix:hover,button.choix i:hover{ 
+button.choix:hover,button.choix:hover i{ 
     color:#9356DC;
 }
 button.choix {
@@ -323,7 +323,6 @@ i.fa-solid.fa-handshake-angle, i.fa-solid.fa-utensils{
     -webkit-animation: spin 2s linear infinite;
     animation: spin 3s linear infinite;
   }
-  
   @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
@@ -426,7 +425,7 @@ span.omf-checkbox.omf-flex-column{
     transition: width 400ms ease-in-out;
     opacity: 0;
 }
-span.omf-checkbox.omf-flex-column:hover{
+.contenu:hover span.omf-checkbox.omf-flex-column{
     width: 59px;
     transition: width 400ms ease-in-out;
     opacity: 1;
@@ -438,7 +437,7 @@ i.fa-solid.fa-circle-check{
     color: white;
     margin:7px 0 0 0 ;
 }
-i.fa-solid.fa-circle-check:hover{
+.contenu:hover i.fa-solid.fa-circle-check{
     opacity: 1;
 }
 h2.menu-tout {
