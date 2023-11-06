@@ -593,21 +593,254 @@ button.Commander:hover{
     transition: 300ms ease-in;
     background-image: linear-gradient(to bottom right, #9356DC, #FF79DA)
 }
-/* Small devices (phones, less than 992px) */
-@media (min-width:992px) {
-    /**************partie-2***************/
-    button.choix{
-        width: 291px;
+ /* Small devices (phones, less than 1400px) */
+@media (max-width: 1400px) {
+    /**************menu-tout***************/
+        .menu-tout {
+            width: 850px;
+        }
     }
-     /**************partie-3***************/
-    .boxs article.card ,.image{
-        width: 416px;
+    /* Small devices (phones, less than 1199px) */
+    @media (max-width: 1199px) {
+    /**************section#partie-2***************/
+        section#partie-2 {
+            padding: 25px;
     }
-    /**************page-menu***************/
-    .menu-tout{
-        width: 800px;
+        button.choix {
+            position: relative;
+            width: 300px;
+         }
+    /**************section#partie-3***************/
+        section#partie-3{
+            padding: 28px;
+        }
+        .boxs article.card,.image {
+            width: 462px;
+        }
+    /**************menu-tout***************/
+    
+       .menu-tout {
+            width: 845px;
+        }
     }
-}
+    /* Small devices (phones, less than 1024px) */
+    @media (max-width: 1024px) {
+     /**************section#partie-2***************/
+    
+        section#partie-2 {
+            padding: 20px;
+        }
+        button.choix {
+            width: 297px;
+        }
+        .boxs article.card,.image{
+            width: 420px;
+        }
+       
+    /**************menu-tout***************/
+        .menu-tout{
+            padding: 20px;
+            width: 850px;
+        }
+    /* Small devices (phones, less than 992px) */
+    @media (max-width: 992px) {
+    
+     /**************section#partie-2***************/
+        button.choix{
+           width: 226px;
+           padding: 20px;
+           line-height: 12px;
+           font-size: 13px;
+        }
+        button.choix i {
+            margin-bottom: 5px;
+        }
+        .number {
+            top:25%;
+        }
+    /**************section#partie-3***************/
+        .boxs article.card {
+            width:335px;
+        }
+        .image{
+            width:335px;
+        }
+    /**************section-menu***************/
+        .menu-tout {
+            padding: 25px;
+        }
+        .menu-tout {
+            width:89.5%;
+        }
+    }
+    
+    /* Small devices (phones, less than 767px) */
+    @media (max-width: 767px) {
+    /**************section#partie-1***************/
+        h1.reserver{
+            font-size: 30px;
+        }
+    /**************section#partie-2***************/
+        section#partie-2{
+           padding: 20px;
+        }
+        .blocs {
+            display: block;
+        }
+        .boxs{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        button.choix {
+            margin-bottom: 20px;
+            width: 100%;
+            font-size: 16px;
+        }
+        .number {
+            top:25%;
+        }
+    /***********section#partie-3***************/
+        section#partie-3{
+            padding: 20px;
+        }
+        .boxs article.card {
+            width: 100%;
+        }
+        .image {
+            width: 100%;
+        } 
+    /***********footer***************/
+        footer{
+            padding: 22px 25px;
+        }
+        nav.footer-nav{
+            align-items: flex-start;
+            flex-direction: column-reverse;
+            padding: 0;
+        }
+        .footer-href{
+            flex-direction: column;
+            align-items: baseline;
+        }
+        .footer-href a{
+            line-height: 16px;
+        }
+        .logo-footer p{
+            line-height: 16px;
+        }
+        /**********menu-************/
+        .menu-tout{
+           width: 89.5%;
+           margin-left: 0;
+           margin-right: 0;
+        }
+        .menu-tout .contenu .card-txt p{
+           line-height:16px;
+           font-size: 12px;
+        }
+        .contenu {
+            width: 407px;
+        }
+    
+        .menu-tout .contenu .card-txt h3{
+           line-height: 17px;
+           font-size: 16px;
+        }
+    }
+    /* Small devices (phones, less than 480px) */
+    @media (max-width: 480px) {
+    /**************headar***************/
+        header{
+           padding: 14px 89px;
+        }
+     /**********section#partie-1**************/
+        h1.reserver {
+            font-size: 30px;
+            line-height:28.13px;
+        }
+        p.paragraph{
+            margin: 0;
+        }
+      /********** section#partie-2************/
+        section#partie-2{
+            padding:48px 20px;
+            margin:0;
+        }
+        .blocs{
+            flex-direction: column;
+        }
+        button.choix,.image{
+            width:100%;
+        }
+        .boxs{
+            grid-gap: 18px;
+        }
+        .card-content{
+            padding: 12px;
+        }
+    /********** section#partie-3************/
+        section#partie-3{
+            padding: 28px 12px;
+        }
+        .boxs{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .boxs article.card {
+            width: 330px;
+        }
+        .image{
+            width: 330px;
+        }
+    /********** footer************/
+        footer{
+            padding: 22px 25px 22px 25px ;
+        }
+        nav.footer-nav {
+            flex-direction: column-reverse;
+            text-align: left;
+        }
+        .footer-href{
+            flex-direction: column;
+            gap:7px;
+            align-items: flex-start;
+        }
+        .footer-href a{
+            margin:0;
+        }
+     /**********menu-************/
+        .menu-tout{
+            margin-left: 0;
+            align-items: flex-start;
+            width: 97.2%;
+            padding:5px;
+        }
+    
+        .contenu{
+            width: 306px;
+            flex-wrap: inherit;
+            align-content: revert;
+        }
+        h1.menu-tout {
+            margin-bottom: 40px;
+            width: 260px;
+            font-size: 26px;
+        }
+        .menu-tout .contenu .card-txt h3{
+            font-size: 13px;
+        }
+        .menu-tout .contenu .card-txt p{
+            font-size: 12px;
+        }
+        .card-txt{
+            padding: 5px;
+        }
+        .contenu:hover span.omf-checkbox.omf-flex-column{
+            width: 45px;
+        }
+    }
+    
+
+  
+    
 
 
 
