@@ -812,11 +812,9 @@ button.choix i{
             gap:100px;
             margin:auto;
        }
-        .boxs article.card {
-            width: 330px;
-       }
+       
         .image,.boxs article.card{
-            width: 360px;
+            width: 322px;
        }
        /********** footer************/
         footer{
@@ -879,7 +877,7 @@ button.choix i{
             
        }
        /**************section#partie-3***************/
-         section#partie-2
+        
         .image,.boxs article.card{
             width: 490px;
        }
